@@ -1,0 +1,43 @@
+/* We need to reset our css, to ignore any default css in the browser */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+main {
+    text-align: center;
+}
+
+#gameboard {
+    display: flex;
+    width: 600px;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.left {
+    border-left: 20px solid black;
+}
+
+.right {
+    border-right: 20px solid black;
+}
+
+.bottom {
+    border-bottom: 20px solid black;
+}
