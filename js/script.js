@@ -108,9 +108,6 @@
         // 3) no combos no cat = keep playing, winner = false
 
         return 'T';
-
-
-
     }
 
     function render() {
@@ -129,4 +126,4 @@
             h3El.textContent = `${players[winner]} WINS!`;
         };
     }
-})();
+}());
